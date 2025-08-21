@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Parcelamento</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simulador de Parcelamento</h1>
+
+        <div class="input-group">
+            <label for="valor-produto">Valor do Produto (R$):</label>
+            <input type="number" id="valor-produto" placeholder="Ex: 1000">
+        </div>
+
+        <div class="input-group">
+            <label for="taxa-juros">Taxa de Juros Mensal (%):</label>
+            <input type="number" id="taxa-juros" placeholder="Ex: 2.5">
+        </div>
+
+        <div class="input-group">
+            <label for="numero-parcelas">Número de Parcelas:</label>
+            <input type="number" id="numero-parcelas" placeholder="Ex: 12">
+        </div>
+
+        <button id="calcular-button">Calcular Parcelas</button>
+
+        <div id="resultado" class="resultado">
+        </div>
+    </div>
+
+    <script src="./src/scripts/scripts.js"></script>
+</body>
+
+</html>
